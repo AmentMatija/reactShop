@@ -1,0 +1,29 @@
+:root {
+  --navbarCol: #1F2421;
+  --buttonCol: #FFB30F; 
+  --mainWhite: #F7F7FF; 
+  --mainDark: #1F2421;
+  --hoverCol: #a30800;  
+}
+body {
+  font-family: "Times New Roman", Times, serif ;  
+}
+.text-title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size:2rem;
+}
+.text-dark {
+  color: var(--mainDark);
+}
+.text-bright{
+  color:var(--mainWhite);
+}
+.no-decor{
+  color:var(--mainWhite);
+  font-size: 1.4rem;
+}
+.no-decor:hover{
+  text-decoration: none;
+  color:var(--mainWhite);
+}
+

@@ -6,12 +6,13 @@
   --hoverCol: #a30800;  
 }
 body {
-  font-family: "Times New Roman", Times, serif ;  
+  font-family: "Roboto Slab", serif !important;  
 }
 .text-title {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: "Noto Sans", sans-serif !important;
   font-size:2rem;
 }
+
 .text-dark {
   color: var(--mainDark);
 }

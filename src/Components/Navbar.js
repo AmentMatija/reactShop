@@ -35,7 +35,7 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
     background: var(--navbarCol);
-     border-radius: 0rem 0rem 3rem 0rem;
+     border-radius: 0rem 0rem 0rem 2rem;
 `;
 
 

@@ -95,15 +95,15 @@ const ProductWrapper = styled.div`
     }
     .cart-btn{
       position: absolute;
-      bottom: 0;
-      right: 0;
+      top: 0;
+      left: 0;
       padding: 0.2 rem 0.4rem;
       background: var(--buttonCol);
       border: none;
       color:var(--mainWhite);
       font-size: 1.4rem;
-      border-radius: 0.5rem 0 0 0;
-      transform: translate(100%, 100%);
+      border-radius: 0 0.5rem 0.5rem 0.5rem;
+      transform: translate(-100%, -100%);
       transition: all 1s linear;
     }
     .img-container: hover .cart-btn {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {storeProducts, detailProduct} from './data'
-//import { runInThisContext } from 'vm';
 
 const ProductContext = React.createContext();
 
@@ -48,7 +47,6 @@ class ProductProvider extends Component {
   addToCart = (id) => {
      let tempProducts = [...this.state.products];
      const product = this.getItem(id);
-     //const index = tempProducts.indexOf(product);
      product.inCart = true;
      product.count = 1;
      const price = product.price;
